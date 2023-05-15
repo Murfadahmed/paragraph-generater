@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: lightgrey;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.container02{
+    margin: 2rem;
+    display: flex;
+}
+.topHeading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+}
+.inputNumber{
+    outline: none;
+    border: none;
+    width: 4.5rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+}
+.submit{
+    padding: 0.6rem;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+    border: 0.01rem solid;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    transition: all 1.5s linear;
+    box-shadow: 4px 5px 15px 6px rgb(157, 148, 138);
+}
+.submit:hover{
+    background-color: rgba(26, 25, 25, 0.5);
+    color: white;
+    padding: auto;
+}
+.container .random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:1.9rem;
+    margin-bottom: 1.2rem;
+    
+    
+}
